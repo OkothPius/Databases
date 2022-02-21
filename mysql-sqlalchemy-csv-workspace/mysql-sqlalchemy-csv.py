@@ -25,6 +25,7 @@ class Purchase(Base):
 	product_price = Column(Float)
 	order_total = Column(Float)
 
+
 	def __repr__(self):
 		return '''<Purchase(order_id='{0}', property_id='{1}',
 			property_city='{2}', property_state='{3}',
